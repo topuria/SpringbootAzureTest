@@ -6,13 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class SpringBootAzureDemoApplication {
-
-    @GetMapping("/message")
-    public String message() {
-        return "Deployed and Works Fine!!";
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootAzureDemoApplication.class, args);
