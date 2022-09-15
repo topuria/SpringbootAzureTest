@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootAzureDemoApplication {
 
-    @GetMapping(name = "/message")
+    @GetMapping("/message")
     public String message() {
         return "Deployed and Works Fine!!";
     }
